@@ -1,0 +1,17 @@
+/*
+Theme Name: ShoppingCart Child
+Theme URI: https://themefreesia.com/themes/shoppingcart
+Description: Child theme of ShoppingCart. Put all customizations here and in functions.php so parent theme updates don't overwrite them.
+Author: Your Name
+Author URI: https://example.com
+Template: shoppingcart
+Version: 1.0.0
+Requires at least: 6.9
+Requires PHP: 5.6
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: shoppingcart-child
+*/
+
+/* Custom CSS below this line
+================================================== */
