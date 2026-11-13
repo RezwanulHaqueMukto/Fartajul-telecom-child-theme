@@ -10,9 +10,9 @@ Theme URI: https://github.com/RezwanulHaqueMukto/Fartajul-telecom-child-theme
 Author URI: https://www.linkedin.com/in/mohammad-rezwanul-haque-mukto/
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
-ul.product_list_widget li {
-   border-radius: 25px;
-}
+
+/*? ####### fixing searchbar###### */
+/*?#################################### */
 
 
 #search-box input[type="search"] {
@@ -20,5 +20,42 @@ ul.product_list_widget li {
 }
 
 
+/*? ####### fixing product grid###### */
+/*?#################################### */
 
+ul.product_list_widget li {
+   border-radius: 25px;
+}
 
+.shoppingcart-grid-widget-wrap.five-column-grid {
+   display: grid !important;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   gap: 10px;
+   padding: 20px
+}
+
+.shoppingcart-grid-widget-wrap.five-column-grid .shoppingcart-grid-product {
+   float: none !important;
+   width: auto !important;
+   margin: 0 !important;
+   border: 1px solid #e5e5e5;
+   border-radius: 12px;
+   overflow: hidden;
+}
+
+.shoppingcart-grid-widget-wrap.five-column-grid .shoppingcart-grid-product {
+   padding: 0 !important;
+   margin: 0 !important;
+   background: #fff !important;
+}
+
+/*? removing top navigation from mobile view */
+/*?#################################### */
+
+@media (max-width: 768px) {
+  .top-bar {
+    margin: 0;
+    padding: 5px 0;
+    display: none;
+  }
+}
