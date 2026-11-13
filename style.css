@@ -10,3 +10,15 @@ Theme URI: https://github.com/RezwanulHaqueMukto/Fartajul-telecom-child-theme
 Author URI: https://www.linkedin.com/in/mohammad-rezwanul-haque-mukto/
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
+ul.product_list_widget li {
+   border-radius: 25px;
+}
+
+
+#search-box input[type="search"] {
+   border-right: 1.4px solid #000000;
+}
+
+
+
+
